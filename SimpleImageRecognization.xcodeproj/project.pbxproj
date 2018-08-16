@@ -13,6 +13,8 @@
 		E05952DE21255AAF0077E669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05952DD21255AAF0077E669 /* Assets.xcassets */; };
 		E05952E121255AAF0077E669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05952DF21255AAF0077E669 /* LaunchScreen.storyboard */; };
 		E05952E921255E4E0077E669 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E05952E821255E4E0077E669 /* MobileNet.mlmodel */; };
+		E07A2E0E21256A9C00D9A0DA /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = E07A2E0C21256A9B00D9A0DA /* 02.png */; };
+		E07A2E0F21256A9C00D9A0DA /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = E07A2E0D21256A9C00D9A0DA /* 01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E05952E021255AAF0077E669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E05952E221255AAF0077E669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E05952E821255E4E0077E669 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		E07A2E0C21256A9B00D9A0DA /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		E07A2E0D21256A9C00D9A0DA /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		E05952D521255AAE0077E669 /* SimpleImageRecognization */ = {
 			isa = PBXGroup;
 			children = (
+				E07A2E0B2125682100D9A0DA /* Pic */,
 				E05952E821255E4E0077E669 /* MobileNet.mlmodel */,
 				E05952D621255AAE0077E669 /* AppDelegate.swift */,
 				E05952D821255AAE0077E669 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				E05952E221255AAF0077E669 /* Info.plist */,
 			);
 			path = SimpleImageRecognization;
+			sourceTree = "<group>";
+		};
+		E07A2E0B2125682100D9A0DA /* Pic */ = {
+			isa = PBXGroup;
+			children = (
+				E07A2E0D21256A9C00D9A0DA /* 01.png */,
+				E07A2E0C21256A9B00D9A0DA /* 02.png */,
+			);
+			path = Pic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +139,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E07A2E0F21256A9C00D9A0DA /* 01.png in Resources */,
 				E05952E121255AAF0077E669 /* LaunchScreen.storyboard in Resources */,
 				E05952DE21255AAF0077E669 /* Assets.xcassets in Resources */,
 				E05952DC21255AAE0077E669 /* Main.storyboard in Resources */,
+				E07A2E0E21256A9C00D9A0DA /* 02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
